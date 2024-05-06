@@ -1,0 +1,30 @@
+.container{
+    margin: 1vw;
+    margin-top: 3vh;
+}
+.bookCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+.bookCard ul li{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    padding: 1vw;
+}
+.bookCard ul li .book{
+    background-color: bisque;
+    padding: 5vw;
+    margin-bottom: 1vw;
+    border-radius: 1vw;
+}
+.bookCard ul li div{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.2rem;
+}

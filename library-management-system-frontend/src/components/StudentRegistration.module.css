@@ -1,0 +1,85 @@
+.container{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.container .registerForm{
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: aqua;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.container form .submit{
+    /* width: 4rem; */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid whitesmoke;
+    background: rgb(120, 120, 238);
+    color: white;
+    margin: auto 10vw;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.container form .submit:hover{
+    background: rgb(94, 94, 224);
+}
+
+.container .registerForm ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+}
+.container .registerForm ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 1rem;
+    margin: 0;
+}
+.container .registerForm ul li label{
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+.container .registerForm ul li .inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    /* width: 100%; */
+}
+.error{
+    display: static;
+    font-size: 1vw;
+    color: red;
+    margin-left: 0.5rem;
+}
+.valid{
+    display: none;
+    font-size: 1vw;
+}
+.container .registerForm ul li input{
+    height: 2rem;
+    width: 25vw;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(148, 37, 252);
+    padding-left: 1vw;
+    font-size: 0.8rem;
+}

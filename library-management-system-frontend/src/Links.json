@@ -1,0 +1,3 @@
+{
+    "saveStudent" : "http://localhost:8080/student/save"
+}
